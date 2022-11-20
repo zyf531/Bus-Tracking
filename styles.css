@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.marker {
+  background-image: url('icons8-bus-64.png');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
